@@ -1,0 +1,27 @@
+{
+  "name": "shopify-cs-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2-react-buttons": "^32.1.21",
+    "@syncfusion/ej2-react-grids": "^32.1.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
