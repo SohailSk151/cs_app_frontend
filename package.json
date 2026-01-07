@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.6",
     "@syncfusion/ej2-react-buttons": "^32.1.21",
     "@syncfusion/ej2-react-grids": "^32.1.22",
     "react": "^18.2.0",
