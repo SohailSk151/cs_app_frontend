@@ -133,8 +133,7 @@ export default function MuiPage() {
     };
 
     return (
-        <Paper sx={{ width: "100%", overflow: "hidden" }}>
-            
+        <Paper sx={{ width: "90%", overflow: "hidden", margin: "20px auto", padding: "20px" }}>
             <TableContainer sx={{ maxHeight: 500 }}>
                 <Table stickyHeader aria-label="orders table">
                     <TableHead>

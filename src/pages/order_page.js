@@ -20,14 +20,14 @@ export default function OrderPage() {
     }
 
     return (
-        <div style={{ padding: 20 }}>
-            <h2>Order Details for {order.id}</h2>
-            <p><strong>Billing Name:</strong> {order.billingAddress ? `${order.billingAddress.firstName} ${order.billingAddress.lastName}` : "N/A"}</p>
-            <p><strong>Phone:</strong> {order.billingAddress ? order.billingAddress.phone : "N/A"}</p>
-            <p><strong>Fulfillment Status:</strong> {order.displayFulfillmentStatus}</p>
-            <p><strong>Financial Status:</strong> {order.displayFinancialStatus}</p>
-        </div>
-
-
-    )
+        <>
+            <div className = "container border rounded p-4 mt-4 hover-shadow">
+                <h2>Order Details for {order.id}</h2>
+                <p className="mx-4"><strong>Billing Name:</strong> {order.billingAddress ? `${order.billingAddress.firstName} ${order.billingAddress.lastName}` : "N/A"}</p>
+                <p className="mx-4"><strong>Phone:</strong> {order.billingAddress ? order.billingAddress.phone : "N/A"}</p>
+                <p className="mx-4"><strong>Fulfillment Status:</strong> {order.displayFulfillmentStatus}</p>
+                <p className="mx-4"><strong>Financial Status:</strong> {order.displayFinancialStatus}</p>
+            </div>
+        </>
+    );
 }
