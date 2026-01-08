@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 /* Pages */
 import Simple from "./pages/simple.js";
-import MuiPage from "./pages/mui_page.js";
+import Orders from "./pages/orders.js";
 import OrderPage from "./pages/order_page.js";
 
 /* Components */
@@ -15,10 +15,10 @@ function App() {
       <Router>
          <Navbar /> 
         <Routes>
-          <Route path="/" element={<Simple />} />
-          <Route path="/orders" element={<MuiPage />} />
+          <Route path="/" element={<Orders />} />
+          <Route path="/orders" element={<Orders />} />
           <Route path="/order/:id" element={<OrderPage />} />
-          <Route path="*" element={<Simple />} />
+          <Route path="*" element={<Orders />} />
         </Routes>
       </Router>
       
